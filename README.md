@@ -1,5 +1,6 @@
 # pig-game
-This is a fun game created using pure vanilla JavaScript
+This is a fun game created using pure vanilla JavaScript.
+
 GAME RULES:
 
 - The game has 2 players, playing in rounds
