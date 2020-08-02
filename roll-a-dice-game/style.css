@@ -15,6 +15,25 @@
     clear: both;
 }
 
+.final-score{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.final-score:focus{
+    outline: none;
+}
+
 body {
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
     background-size: cover;
