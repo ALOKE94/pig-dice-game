@@ -1,0 +1,25 @@
+{
+  "name": "rolldicegame",
+  "version": "1.0.0",
+  "description": "This is a fun game created using pure vanilla JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "build": "copyfiles -f ./*.html ./*.png ./*.css ./*.js build",
+    "deploy": "gh-pages -d build",
+    "predeploy":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALOKE94/pig-dice-game.git"
+  },
+  "author": "Aloke Kumar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALOKE94/pig-dice-game/issues"
+  },
+  "homepage": "https://github.com/ALOKE94/pig-dice-game#readme",
+  "devDependencies": {
+    "copyfiles": "^2.3.0",
+    "gh-pages": "^3.1.0"
+  }
+}
